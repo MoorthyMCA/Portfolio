@@ -38,6 +38,6 @@ app.post("/postdata", async (req, res) => {
 
 
 
-app.listen(4001, () => {
+app.listen(3001, () => {
     console.log("server started");
 });
