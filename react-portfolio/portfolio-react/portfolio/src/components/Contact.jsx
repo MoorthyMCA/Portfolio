@@ -78,7 +78,7 @@ const Contact = () => {
                 //business logic for handle data in server
                 // setServerResponse(val)
                 console.log(val)
-                if(val){
+                if(val.message){
                     toast("successfully submited")
 
                 }
