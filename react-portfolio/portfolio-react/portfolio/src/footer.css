@@ -1,7 +1,7 @@
 .forbackground-footer{
     /* background: linear-gradient(147deg, #0c0b0c 40%,  #da0b729c  ); */
    height: 100vh;
-   background-image: url("backkkk.jpg");
+   background-image: url("/backkkk.jpg");
     position: relative;
 }
 .forcenter-footer-content{
