@@ -61,11 +61,11 @@ const Contact = () => {
         const handleSubmit = async () => {
 
           
-          document.getElementById("forfirstname").value=" "
-           document.getElementById("forsecondname").value=" "
-            document.getElementById("formail").value=" "
-             document.getElementById("fortextarea").value=" "
-              document.getElementById("forphonenumber").value=" "
+          document.getElementById("forfirstname").value=""
+           document.getElementById("forsecondname").value=""
+            document.getElementById("formail").value=""
+             document.getElementById("fortextarea").value=""
+              document.getElementById("forphonenumber").value=""
               toast("submitted")
           
           
