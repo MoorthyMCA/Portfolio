@@ -60,7 +60,7 @@ const Contact = () => {
            console.log(data)
 
 
-             await fetch("http://localhost:4001/postdata"
+             await fetch("https://backend-utcw.onrender.com/postdata"
 
 , {
                 method: "POST",
