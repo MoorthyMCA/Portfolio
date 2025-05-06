@@ -1,0 +1,90 @@
+.forlottie-contact{
+    
+    height: 500px;
+    
+    
+}
+.forlottie-center{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.forinput{
+    padding: 10px;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+   
+   
+    
+
+}
+
+.fortextarea{
+   
+    width: 100%;
+   
+    border-radius: 30px;
+    
+    
+}
+.fortextarea textarea{
+    width: 100%;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.forformbtn{
+    background: linear-gradient(147deg, black 50%,  blue  );
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+   
+    border: none;
+    outline: none;
+}
+
+
+.forsm-center input{
+    width:300px ;
+    
+}
+.forjstest{
+   
+    background-color: rgba(168, 134, 140, 0.726);
+}
+.forsm-center{
+    display: flex;
+    justify-content: center;
+}
+@media all and(max-width:992px){
+    .formd-margin {
+        margin-top: 15px;
+    }
+}
+@media all and(max-width:1024px){
+    .forlg-margin{
+       margin-top: 40px;
+        background-color: beige;
+    }
+}
+@media all and (min-width:1024px){
+.forlg-padding{
+    padding: 10px;
+    height: 45px;
+    margin-top: 25px;
+    
+}
+}

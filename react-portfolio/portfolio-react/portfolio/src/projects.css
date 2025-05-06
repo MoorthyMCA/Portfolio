@@ -1,0 +1,98 @@
+.forpadding{
+    padding-top: 200px;
+    
+    
+}
+.forproject-section{
+    width: 100%;
+}
+.forfirst-div{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.forcard{
+    border-radius: 36px;
+    width: 400px;
+    overflow: hidden;
+}
+.forcenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.foranimation{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    bottom: 0px;
+   
+    background: linear-gradient(147deg, #0c0b0c 20%,  blue  );
+    border-radius: 36px;
+    transition: height 0.5s;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+
+
+  
+}
+.forlotie-animation{
+    position: absolute;
+    top: 270px;
+    width: 150px;
+    height: 150px;
+}
+
+.forcard:hover .foranimation{
+    height: 90%;
+    margin-bottom: 40px;
+    border-radius: 60px;
+    
+}
+@media all and (max-width:768px){
+    .forlotie-animation{
+        position: absolute;
+        top: 190px;
+
+
+    }
+    .forsm-height{
+        height: 360px;
+        margin-top: 25px;
+    }
+    .forsm-margin{
+        margin-top: 25px;
+    }
+}
+@media all and (max-width:992px){
+    .forsm-height{
+        margin-top: 25px;
+        height: 360px;
+        
+
+
+    }
+    .formd-margin{
+        margin-top: 25px;
+
+    }
+    
+}
+@media all and (max-width:1200px){
+    .forlotie-animation{
+        position: absolute;
+        top: 200px;
+
+
+    }
+    .formd-margin{
+        margin-top: 25px;
+
+    }
+}

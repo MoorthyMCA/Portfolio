@@ -1,0 +1,35 @@
+.forskills-background-img{
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-color: #4d4855;
+    background-color: black;
+    background-image: url("backkkk.jpg");
+/* background-image: linear-gradient(147deg, #0c0b0c 60%,  #b6186762  ); */
+width: 
+100%;
+padding-top: 200px;
+
+
+}
+
+
+
+
+@media all and (max-width:768px){
+    .forplacement{
+        position: absolute;
+        top: 157%;
+       
+    }
+}
+@media all and (max-width:992px){
+    .forplacement{
+        
+        width: 100px;
+       
+    }
+}
+

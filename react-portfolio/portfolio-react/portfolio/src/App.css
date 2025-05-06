@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0x;
+  box-sizing: border-box;
+}
+.foricon{
+  width: 40px;
+  height: 40px;
+  background-color:gray;
+  border-radius: 50%;
+  display: flex;
+  border: 3px solid rgba(79,72,72,0.79);
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+ .nav-item :hover{
+  text-decoration:underline 2px;
+
+  text-decoration-color: blue;
+
+
+
+}
+
+.forbtn{
+  box-shadow: 0px 4px 24px 1px rgba(0,0,0,0.28);
+  animation: btn 3ms infinite ease-in-out;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.forbtn button{
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 200px;
+}
+
+@keyframes btn{
+  to{
+    background-color: rgba(79,72,72,0.79);
+  }
+}
+.nav-link{
+  font-weight: bold;
+}
+@media all and (min-width:992px){
+  .foradjust{
+    margin-left: 100px;
+    
+  }
+
+}
+
+@media all and (max-width:576px){
+  .forbtn{
+   height: 42px;
+    
+  }
+
+}
+@media all and (max-width:768px){
+  .forbtn{
+   height: 42px;
+    
+  }
+
+}
+@media all and (max-width:992px){
+  .forbtn{
+   height: 42px;
+    
+  }
+  .offcanvas{
+    background-image: url("ham-6.jpg");
+    background-size: cover;
+  }
+  
+
+}

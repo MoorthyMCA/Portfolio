@@ -1,0 +1,42 @@
+.forbackground-footer{
+    /* background: linear-gradient(147deg, #0c0b0c 40%,  #da0b729c  ); */
+   height: 100vh;
+   background-image: url("backkkk.jpg");
+    position: relative;
+}
+.forcenter-footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.foricon-footer{
+    width: 40px;
+    height: 40px;
+    background-color:gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forresume-animation{
+    box-shadow: 0px 4px 24px 1px rgba(0,0,0,0.28);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+    animation: btn 3ms infinite ease-in-out;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 12px;
+    background-color: linear-gradient( rgba(75, 41, 68),rgb(100, 92, 92));
+   
+    height: 35px;
+    
+}
+@media screen and (max-width:"370px"){
+    .forfooter-sm{
+      position: absolute;
+      bottom: 100px;
+
+    }
+}
