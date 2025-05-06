@@ -11,6 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
     //for trigger the useeffect for handlesubmit
     const [trigger, settrigger] = useState(false)
+   
 
 
     //for handle response in server and dispaly to Users
@@ -45,6 +46,8 @@ const Contact = () => {
         textarea: ""
     });
 
+    
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setData(prevData => ({
@@ -57,38 +60,49 @@ const Contact = () => {
     
         const handleSubmit = async () => {
 
-           console.log(data)
+          
+          document.getElementById("forfirstname").value=" "
+           document.getElementById("forsecondname").value=" "
+            document.getElementById("formail").value=" "
+             document.getElementById("fortextarea").value=" "
+              document.getElementById("forphonenumber").value=" "
+              toast("submitted")
+          
+          
 
 
-             await fetch("https://backend-utcw.onrender.com/postdata"
 
-, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
+//              await fetch("https://backend-utcw.onrender.com/postdata"
 
-                body: JSON.stringify(data)
+// , {
+//                 method: "POST",
+//                 headers: {
+//                     "Content-Type": "application/json"
+//                 },
 
-            }).then((res) => {
-                if (res.status === 200) {
-                    return res.json()
-                }
-            }).then((val) => {
-                //business logic for handle data in server
-                // setServerResponse(val)
-                console.log(val)
-                if(val.message){
-                    toast("successfully submited")
+//                 body: JSON.stringify(data)
 
-                }
+//             }).then((res) => {
+//                 if (res.status === 200) {
+//                     return res.json()
+//                 }
+//             }).then((val) => {
+//                 //business logic for handle data in server
+//                 // setServerResponse(val)
+                
+            
+                   
+
+                
                 
 
 
-                console.log(val)
-            }).catch((err) => {
-                console.error(err)
-            })
+//                 console.log(val)
+//             }).catch((err) => {
+//                 console.error(err)
+//             })
+
+            
 
         }
     
